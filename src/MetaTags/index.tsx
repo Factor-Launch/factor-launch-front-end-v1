@@ -1,8 +1,8 @@
 import Head from 'next/head';
 
 export default function Metatags({
-  title = 'Factor Launch',
-  description = 'Factor Launch is a decentralized, open-source, decentralized infrastructure to launch projects, NFTs, token baskets, and derivatives with fair and accessible opportunities.',
+  title = 'Factor - Token, NFTs and Markets Launchpad',
+  description = 'Factor is building a permissionless capital markets infrastructure that enables creators to launch new tokens, NFTs, and markets.',
   image = 'https://firebasestorage.googleapis.com/v0/b/factor-launch.appspot.com/o/meta-tags-img.png?alt=media&token=5173623f-aa27-47d9-b494-f2fe68f26595',
 }) {
   return (

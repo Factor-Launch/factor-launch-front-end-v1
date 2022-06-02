@@ -1,4 +1,5 @@
 import styles from './LandingPage.module.css';
+// @ts-ignore
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import Button from '@mui/material/Button';
 import { borderRadius } from '@mui/system';
@@ -29,7 +30,12 @@ export default function LandingPage() {
         >
           <img
             src='/cropped-logo.png'
-            style={{ height: '150px', width: 'auto', marginTop: '15px' }}
+            style={{
+              height: '150px',
+              width: 'auto',
+              marginTop: '15px',
+              marginLeft: '40px',
+            }}
           />
           <div className={styles.hero_container}>
             <h1 className={styles.hero_tagline_header}>
